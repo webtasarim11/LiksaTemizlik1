@@ -1,0 +1,165 @@
+@charset "utf-8";
+*{
+	box-sizing:border-box;
+	}
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Oxygen', sans-serif;
+	}
+#ustmenu{
+	background-color:#000;
+	color:#FFF;
+	height:55px;
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	padding:15px;
+	position:sticky;
+	top:0;
+	z-index:1;}
+font{
+	float:right;
+	letter-spacing:2px;}
+#ustmenu i{
+	float:right;
+	margin-right:15px;
+	}
+#ustmenu i:hover{
+	opacity:.8;
+	}
+header{
+    width:100%;
+    height:150px;
+	padding:0 30px;
+	text-align:center;
+	margin-top:0;
+}
+#logo{
+    font-size:12px;
+    color:#000;
+    float:left;
+    padding:10 0px;
+}
+nav{
+    float:right;
+    line-height:80px;
+	margin:45px;
+	margin-left:-25px;
+}
+nav a:link{
+    text-decoration:none;
+    color:#003666;
+    margin-right:25px
+}
+nav a:hover{
+    border-bottom:2px solid #ff5200;
+}
+nav a i{
+    margin-right:7px;
+}
+#banner{
+    background-image:url(img/banner.fw.png);
+    width:100%;
+    height:450px;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.bannertext{
+    position:absolute;
+    top:70%;
+    left:40%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    -o-transform:translate(-50%, -50%);
+    color:#000;
+}
+#hakkimizdaresim{
+	width:200px;
+	height:200px;
+	border-radius:10px;
+	float:left;
+	margin:0 10px;
+	transition:opacity .8s;
+	margin:25px;
+	margin-bottom:10px;
+	}
+#hakkimizdaresim:hover{
+	opacity:.6;}
+.hakkimizdatext{
+	font-size:18px;
+	margin-right:15px;
+	text-indent:40px;
+	text-align:justify;
+	color:#494949;
+}
+h1{
+	text-align:center;
+}
+#referans{
+	width:243px;
+	height:300px;
+	background-color:#FFF;
+	border-radius:5px;
+	float:left;
+	margin:10px;
+	margin-left:15px;
+	}
+.referansresim{
+	width:243px;
+	height:180px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+		}
+.referansresim:hover{
+	opacity:1;}
+.referansbaslik{
+	text-align:center;
+	font-size:20px;
+	background-color:#f1f1f1;
+	width:100%;
+	height:45px;
+	color:black;
+	line-height:45px;
+	margin-top:0;
+	}
+.referanstext{
+	text-align:center;}
+	.galeriresim{
+	width:260px;
+	height:200px;
+	border-radius:5px;
+	box-shadow:0 2px 8px 2px rgba(20,23,28,.15);
+	opacity:.8;
+	transition:all .8s;
+	margin:10px;
+	margin-left:55px;
+	}
+.galeriresim:hover{
+	opacity:1;
+	border:5px solid white;
+	}
+	.link{
+	text-decoration:none;}
+footer{
+    background-color:#000;
+    color:white;
+    height:400px;
+    box-shadow:0 2px 8px 2px rgba(20, 23, 28.15);
+    text-align:center;
+    padding-top:50px;
+	margin-top:15px;
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}
+footer a:hover{
+    color:#003666;
+}
+
+/* CSS Document */
+
